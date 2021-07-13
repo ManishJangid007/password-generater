@@ -27,5 +27,5 @@ class Password():
 
 
 if __name__ == "__main__":
-    my_mod = Password()
+    my_mod = Password(length=25) # default length is 18
     print(my_mod.number())
